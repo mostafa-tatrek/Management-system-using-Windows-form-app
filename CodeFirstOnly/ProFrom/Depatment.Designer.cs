@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             comboBox1 = new ComboBox();
             combomanger = new ComboBox();
             name = new TextBox();
@@ -82,27 +82,27 @@
             // 
             View2.BackgroundColor = Color.White;
             View2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = SystemColors.Window;
-            dataGridViewCellStyle11.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle11.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle11.SelectionBackColor = Color.White;
-            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.False;
-            View2.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle1.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle1.SelectionBackColor = Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            View2.DefaultCellStyle = dataGridViewCellStyle1;
             View2.GridColor = Color.SlateGray;
-            View2.Location = new Point(2, -1);
+            View2.Location = new Point(-6, -1);
             View2.Margin = new Padding(3, 4, 3, 4);
             View2.Name = "View2";
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = SystemColors.Control;
-            dataGridViewCellStyle12.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            dataGridViewCellStyle12.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle12.SelectionBackColor = Color.White;
-            dataGridViewCellStyle12.SelectionForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
-            View2.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            View2.Size = new Size(557, 213);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.SelectionBackColor = Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            View2.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            View2.Size = new Size(629, 213);
             View2.TabIndex = 14;
             // 
             // Save
@@ -110,7 +110,7 @@
             Save.BackColor = Color.FromArgb(0, 0, 192);
             Save.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             Save.ForeColor = Color.White;
-            Save.Location = new Point(610, 62);
+            Save.Location = new Point(629, 62);
             Save.Margin = new Padding(3, 4, 3, 4);
             Save.Name = "Save";
             Save.Size = new Size(131, 55);
@@ -124,7 +124,7 @@
             button2.BackColor = Color.FromArgb(0, 0, 192);
             button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(610, 145);
+            button2.Location = new Point(629, 145);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(131, 55);
@@ -180,7 +180,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label5.ForeColor = SystemColors.Control;
-            label5.Location = new Point(12, 267);
+            label5.Location = new Point(2, 267);
             label5.Name = "label5";
             label5.Size = new Size(143, 25);
             label5.TabIndex = 21;

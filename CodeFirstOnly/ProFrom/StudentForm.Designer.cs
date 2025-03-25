@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             comboCourse = new ComboBox();
             comboStudent = new ComboBox();
             txtFirstName = new TextBox();
@@ -46,42 +46,45 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            Addcourse = new Button();
+            removecourse = new Button();
             ((System.ComponentModel.ISupportInitialize)View1).BeginInit();
             SuspendLayout();
             // 
             // comboCourse
             // 
             comboCourse.FormattingEnabled = true;
-            comboCourse.Location = new Point(128, 300);
+            comboCourse.Location = new Point(109, 368);
             comboCourse.Name = "comboCourse";
-            comboCourse.Size = new Size(151, 23);
+            comboCourse.Size = new Size(231, 23);
             comboCourse.TabIndex = 1;
             // 
             // comboStudent
             // 
             comboStudent.FormattingEnabled = true;
-            comboStudent.Location = new Point(128, 267);
+            comboStudent.Location = new Point(109, 268);
             comboStudent.Name = "comboStudent";
             comboStudent.Size = new Size(151, 23);
             comboStudent.TabIndex = 2;
+            comboStudent.SelectedIndexChanged += comboStudent_SelectedIndexChanged;
             // 
             // txtFirstName
             // 
-            txtFirstName.Location = new Point(134, 376);
+            txtFirstName.Location = new Point(114, 296);
             txtFirstName.Name = "txtFirstName";
-            txtFirstName.Size = new Size(136, 23);
+            txtFirstName.Size = new Size(67, 23);
             txtFirstName.TabIndex = 3;
             // 
             // txtLastName
             // 
-            txtLastName.Location = new Point(134, 347);
+            txtLastName.Location = new Point(292, 300);
             txtLastName.Name = "txtLastName";
-            txtLastName.Size = new Size(136, 23);
+            txtLastName.Size = new Size(60, 23);
             txtLastName.TabIndex = 4;
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(134, 405);
+            txtPhone.Location = new Point(109, 326);
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(136, 23);
             txtPhone.TabIndex = 5;
@@ -90,26 +93,26 @@
             // 
             View1.BackgroundColor = Color.White;
             View1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = SystemColors.Window;
-            dataGridViewCellStyle15.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle15.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle15.SelectionBackColor = Color.White;
-            dataGridViewCellStyle15.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = DataGridViewTriState.False;
-            View1.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle1.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle1.SelectionBackColor = Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            View1.DefaultCellStyle = dataGridViewCellStyle1;
             View1.GridColor = Color.SlateGray;
             View1.Location = new Point(0, 2);
             View1.Margin = new Padding(3, 4, 3, 4);
             View1.Name = "View1";
-            dataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = SystemColors.Control;
-            dataGridViewCellStyle16.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            dataGridViewCellStyle16.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle16.SelectionBackColor = Color.White;
-            dataGridViewCellStyle16.SelectionForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle16.WrapMode = DataGridViewTriState.True;
-            View1.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.SelectionBackColor = Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            View1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             View1.Size = new Size(557, 237);
             View1.TabIndex = 6;
             // 
@@ -188,7 +191,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label5.ForeColor = SystemColors.Control;
-            label5.Location = new Point(25, 265);
+            label5.Location = new Point(12, 265);
             label5.Name = "label5";
             label5.Size = new Size(97, 25);
             label5.TabIndex = 19;
@@ -199,7 +202,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(25, 290);
+            label1.Location = new Point(12, 368);
             label1.Name = "label1";
             label1.Size = new Size(78, 25);
             label1.TabIndex = 20;
@@ -210,7 +213,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(32, 405);
+            label2.Location = new Point(12, 323);
             label2.Name = "label2";
             label2.Size = new Size(71, 25);
             label2.TabIndex = 21;
@@ -221,7 +224,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(25, 376);
+            label3.Location = new Point(190, 297);
             label3.Name = "label3";
             label3.Size = new Size(101, 25);
             label3.TabIndex = 22;
@@ -232,11 +235,39 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(25, 344);
+            label4.Location = new Point(12, 294);
             label4.Name = "label4";
             label4.Size = new Size(103, 25);
             label4.TabIndex = 23;
             label4.Text = "First Name";
+            // 
+            // Addcourse
+            // 
+            Addcourse.BackColor = Color.FromArgb(120, 144, 156);
+            Addcourse.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            Addcourse.ForeColor = SystemColors.HighlightText;
+            Addcourse.Location = new Point(56, 401);
+            Addcourse.Margin = new Padding(3, 4, 3, 4);
+            Addcourse.Name = "Addcourse";
+            Addcourse.Size = new Size(133, 41);
+            Addcourse.TabIndex = 24;
+            Addcourse.Text = "Add course";
+            Addcourse.UseVisualStyleBackColor = false;
+            Addcourse.Click += btnAddCourseToStudent_Click;
+            // 
+            // removecourse
+            // 
+            removecourse.BackColor = Color.FromArgb(120, 144, 156);
+            removecourse.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            removecourse.ForeColor = Color.Red;
+            removecourse.Location = new Point(207, 401);
+            removecourse.Margin = new Padding(3, 4, 3, 4);
+            removecourse.Name = "removecourse";
+            removecourse.Size = new Size(133, 41);
+            removecourse.TabIndex = 25;
+            removecourse.Text = "remove course";
+            removecourse.UseVisualStyleBackColor = false;
+            removecourse.Click += btnRemoveCourseFromStudent_Click;
             // 
             // StudentForm
             // 
@@ -244,6 +275,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
             ClientSize = new Size(800, 450);
+            Controls.Add(removecourse);
+            Controls.Add(Addcourse);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -284,5 +317,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private Button Addcourse;
+        private Button removecourse;
     }
 }

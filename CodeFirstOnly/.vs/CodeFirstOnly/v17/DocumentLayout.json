@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|h:\\.net\\ef\\projact\\codefirstonly\\profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|solutionrelative:profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|h:\\.net\\ef\\projact\\codefirstonly\\profrom\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|solutionrelative:profrom\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,14 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|h:\\.net\\ef\\projact\\codefirstonly\\profrom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|solutionrelative:profrom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|h:\\.net\\ef\\projact\\codefirstonly\\profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|solutionrelative:profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|h:\\.net\\ef\\projact\\codefirstonly\\profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA230D2E-FF9D-41FE-81D0-CF584A40D043}|ProFrom\\ProFrom.csproj|solutionrelative:profrom\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\Form1.cs",
               "RelativeDocumentMoniker": "ProFrom\\Form1.cs",
               "ToolTip": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\Form1.cs",
               "RelativeToolTip": "ProFrom\\Form1.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAADwv54AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T18:59:17.263Z",
               "IsPinned": true,
@@ -48,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\Form1.cs",
               "RelativeDocumentMoniker": "ProFrom\\Form1.cs",
@@ -61,7 +57,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "StudentForm.cs",
+              "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs",
+              "RelativeDocumentMoniker": "ProFrom\\StudentForm.cs",
+              "ToolTip": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs",
+              "RelativeToolTip": "ProFrom\\StudentForm.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswF8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:19:43.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\Program.cs",
               "RelativeDocumentMoniker": "ProFrom\\Program.cs",
@@ -69,37 +82,7 @@
               "RelativeToolTip": "ProFrom\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:44:24.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentForm.cs",
-              "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs",
-              "RelativeDocumentMoniker": "ProFrom\\StudentForm.cs",
-              "ToolTip": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs",
-              "RelativeToolTip": "ProFrom\\StudentForm.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAArwMUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:54:31.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentForm.cs [Design]",
-              "DocumentMoniker": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs",
-              "RelativeDocumentMoniker": "ProFrom\\StudentForm.cs",
-              "ToolTip": "H:\\.Net\\EF\\Projact\\CodeFirstOnly\\ProFrom\\StudentForm.cs [Design]",
-              "RelativeToolTip": "ProFrom\\StudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:54:29.297Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-03-25T03:44:24.205Z"
             }
           ]
         }

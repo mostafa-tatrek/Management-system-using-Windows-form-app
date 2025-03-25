@@ -28,28 +28,32 @@ namespace ProFrom
             db.Students.Load();
             db.Courses.Load();
             View1.Refresh();
+            var students = db.Students
+            .Include(s => s.Courses) 
+           .Select(s => new
+          {
+             s.StudentId,
+             FullName = s.FName + " " + s.LName,
+             s.Phone,
+             Courses = s.Courses.Any()
+                 ? string.Join(", ", s.Courses.Select(c => c.Name))
+                 : "No Courses"
+         })
+        .ToList();
 
-            
+
+
+            View1.DataSource = students;
+
 
             comboCourse.DataSource = db.Courses.Local.ToBindingList();
             comboCourse.DisplayMember = "Name";
             comboCourse.ValueMember = "CourseId";
 
             comboStudent.DataSource = db.Students.Local.ToBindingList();
-            comboStudent.DisplayMember = "FirstName";
+            comboStudent.DisplayMember = "FName";
             comboStudent.ValueMember = "StudentId";
-        
-            var students = db.Students.Local.Select(s => new
-            {
-                s.StudentId,
-                FullName = s.FName + " " + s.LName,
-                s.Phone,
-                Courses = s.Courses.Any()
-                    ? string.Join(", ", s.Courses.Select(cs => cs.Name))
-                    : "No Courses"
-            }).ToList();
-
-            View1.DataSource = students;
+           
         }
 
         private void Save_Click(object sender, EventArgs e)
@@ -91,8 +95,6 @@ namespace ProFrom
 
                 db.Students.Add(student);
                 View1.Refresh();
-               
-
 
                 MessageBox.Show("Student added successfully.");
             }
@@ -180,9 +182,53 @@ namespace ProFrom
                 if (student != null && course != null)
                 {
                     student.Courses.Add(course);
+                    View1.Refresh();
+
                     db.SaveChanges();
+                    
+
 
                     MessageBox.Show("Course added to student successfully.");
+                }
+                else
+                {
+                    MessageBox.Show("Student or Course not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+        private void btnRemoveCourseFromStudent_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (comboStudent.SelectedValue == null || comboStudent.SelectedValue is not int)
+                {
+                    MessageBox.Show("Please select a valid student.");
+                    return;
+                }
+
+                int studentId = Convert.ToInt32(comboStudent.SelectedValue);
+                var student = db.Students.Include(s => s.Courses).FirstOrDefault(s => s.StudentId == studentId);
+                var course = db.Courses.FirstOrDefault(c => c.CourseId == (int)comboCourse.SelectedValue);
+
+                if (student != null && course != null)
+                {
+                    if (student.Courses.Contains(course))
+                    {
+                        student.Courses.Remove(course);
+                        View1.Refresh();
+                        db.SaveChanges();
+                        
+
+                        MessageBox.Show("Course removed from student successfully.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("This course is not assigned to the student.");
+                    }
                 }
                 else
                 {

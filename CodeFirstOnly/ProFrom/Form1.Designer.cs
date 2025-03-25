@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             View1 = new DataGridView();
             Load = new Button();
@@ -56,27 +56,27 @@
             // 
             View1.BackgroundColor = Color.White;
             View1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle3.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle3.SelectionBackColor = Color.White;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            View1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle1.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle1.SelectionBackColor = Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            View1.DefaultCellStyle = dataGridViewCellStyle1;
             View1.GridColor = Color.SlateGray;
-            View1.Location = new Point(-7, 2);
+            View1.Location = new Point(-7, -2);
             View1.Margin = new Padding(3, 4, 3, 4);
             View1.Name = "View1";
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = SystemColors.Control;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            dataGridViewCellStyle4.ForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle4.SelectionBackColor = Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = Color.MidnightBlue;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            View1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            View1.Size = new Size(557, 243);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.SelectionBackColor = Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = Color.MidnightBlue;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            View1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            View1.Size = new Size(572, 247);
             View1.TabIndex = 0;
             // 
             // Load

@@ -158,3 +158,4 @@ H:\.Net\EF\Projact\CodeFirstOnly\ProFrom\obj\Debug\net8.0-windows\ProFrom.Course
 H:\.Net\EF\Projact\CodeFirstOnly\ProFrom\obj\Debug\net8.0-windows\ProFrom.CourseSessionAttendanceForm.resources
 H:\.Net\EF\Projact\CodeFirstOnly\ProFrom\obj\Debug\net8.0-windows\ProFrom.StudentForm.resources
 H:\.Net\EF\Projact\CodeFirstOnly\ProFrom\obj\Debug\net8.0-windows\ProFrom.Welcome.resources
+H:\.Net\EF\Projact\CodeFirstOnly\ProFrom\obj\Debug\net8.0-windows\ProFrom.sourcelink.json

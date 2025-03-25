@@ -150,3 +150,4 @@ H:\.Net\EF\Projact\CodeFirstOnly\CodeFirstOnly\obj\Debug\net8.0\refint\CodeFirst
 H:\.Net\EF\Projact\CodeFirstOnly\CodeFirstOnly\obj\Debug\net8.0\CodeFirstOnly.pdb
 H:\.Net\EF\Projact\CodeFirstOnly\CodeFirstOnly\obj\Debug\net8.0\CodeFirstOnly.genruntimeconfig.cache
 H:\.Net\EF\Projact\CodeFirstOnly\CodeFirstOnly\obj\Debug\net8.0\ref\CodeFirstOnly.dll
+H:\.Net\EF\Projact\CodeFirstOnly\CodeFirstOnly\obj\Debug\net8.0\CodeFirstOnly.sourcelink.json

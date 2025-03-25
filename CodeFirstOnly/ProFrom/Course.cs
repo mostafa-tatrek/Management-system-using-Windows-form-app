@@ -42,7 +42,7 @@ namespace ProFrom
             View1.DataSource = Courses;
             comboBox1.DataSource = db.Courses.Local.ToBindingList();
             comboBox1.DisplayMember = "Name";
-            comboBox1.DisplayMember = "CourseId";
+            comboBox1.ValueMember = "CourseId";
             comboBoxinst.DataSource = db.Instructors.Local.ToBindingList();
             comboBoxinst.DisplayMember = "FName";
             comboBoxinst.ValueMember = "InstructorId";

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProFrom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53c37b1e6fed5081c3034174de87343db1911468")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProFrom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProFrom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
